@@ -1,0 +1,15 @@
+1. git checkout -b branchName
+2. git add fileNames
+3. git commit -m "what you did"
+4. git push origin currentBranchName
+5. git checkout master
+6. git merge targetBranchName
+7. git push origin master
+8. git push origin --delete <branchName>
+
+-----------------------------------------
+
+or if you wanna work in master branch, then simply
+1. git add fileNames
+2. git commit -m "what you did"
+3. git push origin master
